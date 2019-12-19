@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" SeconeRun.xml Test" duration-ms="1988600" started-at="2016-07-05T18:55:19Z" finished-at="2016-07-05T19:28:27Z">
+    <groups>
+    </groups>
+    <test name="SeconeRun" duration-ms="1988600" started-at="2016-07-05T18:55:19Z" finished-at="2016-07-05T19:28:27Z">
+      <class name="testcasesRunner.RunXlsLoggerPage">
+        <test-method status="PASS" signature="SetsUp()[pri:0, instance:testcasesRunner.RunXlsLoggerPage@acaea5]" name="SetsUp" is-config="true" duration-ms="48521" started-at="2016-07-05T20:25:33Z" finished-at="2016-07-05T20:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetsUp -->
+        <test-method status="FAIL" signature="testXLSlogger(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasesRunner.RunXlsLoggerPage@acaea5]" name="testXLSlogger" duration-ms="36226" started-at="2016-07-05T20:26:22Z" data-provider="XlsDProvider" finished-at="2016-07-05T20:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[its.thakur10@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[beloved]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"u"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'User-PC', ip: '192.168.43.34', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir5496_23564}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b785748f67cbbfbaa930abcb06b232be
+*** Element info: {Using=css selector, value=u}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"u"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'User-PC', ip: '192.168.43.34', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir5496_23564}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b785748f67cbbfbaa930abcb06b232be
+*** Element info: {Using=css selector, value=u}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:447)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at testCases.XlsLoginPage.invalidLoggedIn(XlsLoginPage.java:26)
+	at testcasesRunner.RunXlsLoggerPage.testXLSlogger(RunXlsLoggerPage.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXLSlogger -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcasesRunner.RunXlsLoggerPage@acaea5]" name="tearDown" is-config="true" duration-ms="2858" started-at="2016-07-05T20:26:58Z" finished-at="2016-07-05T20:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetsUp()[pri:0, instance:testcasesRunner.RunXlsLoggerPage@acaea5]" name="SetsUp" is-config="true" duration-ms="47263" started-at="2016-07-05T20:27:01Z" finished-at="2016-07-05T20:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetsUp -->
+        <test-method status="FAIL" signature="testXLSlogger(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasesRunner.RunXlsLoggerPage@acaea5]" name="testXLSlogger" duration-ms="36725" started-at="2016-07-05T20:27:48Z" data-provider="XlsDProvider" finished-at="2016-07-05T20:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[its.thakur10@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[segun]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Speed]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"u"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36.72 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'User-PC', ip: '192.168.43.34', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir7528_21285}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71a863275a1a7f486d27bc6a68c3b0d1
+*** Element info: {Using=css selector, value=u}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"u"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36.72 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'User-PC', ip: '192.168.43.34', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir7528_21285}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71a863275a1a7f486d27bc6a68c3b0d1
+*** Element info: {Using=css selector, value=u}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:447)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at testCases.XlsLoginPage.invalidLoggedIn(XlsLoginPage.java:26)
+	at testcasesRunner.RunXlsLoggerPage.testXLSlogger(RunXlsLoggerPage.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXLSlogger -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcasesRunner.RunXlsLoggerPage@acaea5]" name="tearDown" is-config="true" duration-ms="2598" started-at="2016-07-05T20:28:25Z" finished-at="2016-07-05T20:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcasesRunner.RunXlsLoggerPage -->
+      <class name="testcasesRunner.RunPaswrdChangedPage">
+        <test-method status="PASS" signature="SetsUp()[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="SetsUp" is-config="true" duration-ms="210590" started-at="2016-07-05T19:55:19Z" finished-at="2016-07-05T19:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetsUp -->
+        <test-method status="PASS" signature="testChangePasswrd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="testChangePasswrd" duration-ms="501054" started-at="2016-07-05T19:58:49Z" data-provider="xlsChangePasswrd" finished-at="2016-07-05T20:07:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[its.thakur10@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ashish123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ashish123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePasswrd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="tearDown" is-config="true" duration-ms="4012" started-at="2016-07-05T20:07:10Z" finished-at="2016-07-05T20:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetsUp()[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="SetsUp" is-config="true" duration-ms="208138" started-at="2016-07-05T20:07:14Z" finished-at="2016-07-05T20:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetsUp -->
+        <test-method status="PASS" signature="testChangePasswrd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="testChangePasswrd" duration-ms="273017" started-at="2016-07-05T20:10:43Z" data-provider="xlsChangePasswrd" finished-at="2016-07-05T20:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[its.thakur10@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ashish123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ashish123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePasswrd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="tearDown" is-config="true" duration-ms="2608" started-at="2016-07-05T20:15:16Z" finished-at="2016-07-05T20:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetsUp()[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="SetsUp" is-config="true" duration-ms="92056" started-at="2016-07-05T20:15:18Z" finished-at="2016-07-05T20:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetsUp -->
+        <test-method status="PASS" signature="testChangePasswrd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="testChangePasswrd" duration-ms="180506" started-at="2016-07-05T20:16:50Z" data-provider="xlsChangePasswrd" finished-at="2016-07-05T20:19:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[its.thakur10@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ashish123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ashish123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePasswrd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="tearDown" is-config="true" duration-ms="2990" started-at="2016-07-05T20:19:51Z" finished-at="2016-07-05T20:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetsUp()[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="SetsUp" is-config="true" duration-ms="174650" started-at="2016-07-05T20:19:54Z" finished-at="2016-07-05T20:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetsUp -->
+        <test-method status="PASS" signature="testChangePasswrd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="testChangePasswrd" duration-ms="161242" started-at="2016-07-05T20:22:48Z" data-provider="xlsChangePasswrd" finished-at="2016-07-05T20:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[its.thakur10@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ashish123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ashish123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sonsofgod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePasswrd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcasesRunner.RunPaswrdChangedPage@167c1fc]" name="tearDown" is-config="true" duration-ms="3478" started-at="2016-07-05T20:25:30Z" finished-at="2016-07-05T20:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcasesRunner.RunPaswrdChangedPage -->
+    </test> <!-- SeconeRun -->
+  </suite> <!--  SeconeRun.xml Test -->
+</testng-results>

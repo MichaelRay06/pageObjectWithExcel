@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExcelDataProject Test]" parallel="none">
+  <test name="ExcelData(failed)" parallel="none">
+    <classes>
+      <class name="testcasesRunner.RunXlsLoggerPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetsUp"/>
+          <include name="testXLSlogger" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testcasesRunner.RunXlsLoggerPage -->
+      <class name="testcasesRunner.RunPaswrdChangedPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetsUp"/>
+          <include name="testChangePasswrd" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- testcasesRunner.RunPaswrdChangedPage -->
+    </classes>
+  </test> <!-- ExcelData(failed) -->
+</suite> <!-- Failed suite [ExcelDataProject Test] -->

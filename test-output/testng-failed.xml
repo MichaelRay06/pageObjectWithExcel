@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ SeconeRun.xml Test]">
+  <test name="SeconeRun(failed)">
+    <classes>
+      <class name="testcasesRunner.RunPaswrdChangedPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetsUp"/>
+        </methods>
+      </class> <!-- testcasesRunner.RunPaswrdChangedPage -->
+      <class name="testcasesRunner.RunXlsLoggerPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetsUp"/>
+          <include name="testXLSlogger" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testcasesRunner.RunXlsLoggerPage -->
+    </classes>
+  </test> <!-- SeconeRun(failed) -->
+</suite> <!-- Failed suite [ SeconeRun.xml Test] -->
